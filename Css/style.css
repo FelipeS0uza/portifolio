@@ -3,7 +3,7 @@
     height: 100vh;
 }
 
-section div{
+#footer, section div{
     width: 100%;
 }
 
@@ -77,8 +77,6 @@ h2:hover::before {
 h2:hover::after {
     transform-origin: left;
 }
-
-
 
 .option{
     margin-left: 3rem;
@@ -283,4 +281,18 @@ h5{
     font-size: 1.3rem;
     font-weight: bolder;
     font-family: sans-serif;
+}
+
+#footer{
+    color: aqua;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    font-size: 1.2rem;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    font-weight: bolder;
 }
