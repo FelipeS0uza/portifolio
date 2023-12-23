@@ -1,9 +1,14 @@
-#home, #sobremim, #habilidades, #contatos, #projetos{
+#home,
+#sobremim,
+#habilidades,
+#contatos,
+#projetos {
     border: 2px solid black;
     height: 100vh;
 }
 
-#footer, section div{
+#footer,
+section div {
     width: 100%;
 }
 
@@ -15,7 +20,7 @@ body {
     margin: 0;
 }
 
-#menu{
+#menu {
     position: fixed;
     top: 0;
     width: 100%;
@@ -25,7 +30,7 @@ body {
     backdrop-filter: blur(10px);
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -74,141 +79,143 @@ h2:hover::after {
     transform-origin: left;
 }
 
-.option{
+.option {
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
-h3{
+h3 {
     margin-top: 7rem;
     text-align: center;
     font-size: 3rem;
 }
 
-#home{
+#home {
     display: flex;
     background-color: rgb(0, 49, 64);
 }
 
-#title{
+#title {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
 }
 
-h1{
+h1 {
     font-family: fantasy;
     font-size: 5vh;
 }
 
-#work{
+#work {
     font-size: 4vh;
 }
 
-#icons{
+#icons {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#computer{
+#computer {
     width: 70vh;
     border-radius: 20%;
 }
 
-.linguagem{
+.linguagem {
     width: 20vh;
     height: 20vh;
 }
 
-#iconLanguange{
+#iconLanguange {
     display: flex;
     justify-content: space-around;
     height: 15vh;
 }
 
-#sobremim{
+#sobremim {
     background-color: rgb(7, 75, 98);
     height: 100vh;
 }
 
-#sobremim h3{
+#sobremim h3 {
     margin-bottom: 0;
 }
 
-#img_bio{
+#img_bio {
     display: flex;
 }
 
-#pessoa{
+#pessoa {
     display: flex;
     justify-content: center;
     width: 120vh;
 }
 
-#img_bio div img{
+#img_bio div img {
     height: 65vh;
 }
 
-#img_bio div h4{
+#img_bio div h4 {
     font-size: 4vh;
     margin-bottom: 0;
 }
 
-#img_bio div p{
+#img_bio div p {
     font-size: 2.8vh;
     margin-bottom: 0;
     margin-right: 1rem;
 }
 
-#bio{
+#bio {
     display: flex;
 }
 
 
-#listaDeHabilidades{
+#listaDeHabilidades {
     display: flex;
     flex-direction: row;
 }
 
-.metadeDaLista{
+.metadeDaLista {
     display: flex;
     flex-direction: column;
 }
 
-.metadeDaLista div{
+.metadeDaLista div {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
 }
 
-.metadeDaLista div p{
+.metadeDaLista div p {
     font-size: 1.6rem;
 }
 
-#listaDeHabilidades div img{
+#listaDeHabilidades div img {
     width: 12vh;
     height: 12vh;
     margin-right: 2rem;
 }
 
-#projetos, #contatos, #habilidades{
+#projetos,
+#contatos,
+#habilidades {
     background-color: rgb(7, 75, 98);
 }
 
-h5{
+h5 {
     font-size: 1.7rem;
     text-align: center;
 }
 
-#exemplares{
+#exemplares {
     display: flex;
     justify-content: space-around;
 }
 
-.projetoExposto{
+.projetoExposto {
     border: 3px solid gray;
     border-radius: 15%;
     width: 30vh;
@@ -220,13 +227,13 @@ h5{
     transition: 0.5s;
 }
 
-.projetoExposto:hover{
+.projetoExposto:hover {
     border: 3px solid #b80000;
     width: 35vh;
     height: 35vh;
 }
 
-.projetoExposto p{
+.projetoExposto p {
     width: 100%;
     transform: rotate(-45deg);
     margin-left: 2rem;
@@ -235,45 +242,45 @@ h5{
 }
 
 
-#contatoFrase{
+#contatoFrase {
     display: flex;
     flex-direction: row;
 }
 
-#linksDeContato{
+#linksDeContato {
     display: flex;
     flex-direction: column;
     align-content: space-around;
 }
 
-#linksDeContato a{
+#linksDeContato a {
     margin-right: 3vh;
     margin-left: 10vh;
 }
 
-#linksDeContato img{
+#linksDeContato img {
     height: 15vh;
     width: 15vh;
 }
 
-#linksDeContato div{
+#linksDeContato div {
     margin-bottom: 3rem;
     display: flex;
     align-items: center;
 }
 
-#gmail{
+#gmail {
     display: flex;
     justify-content: center;
 }
 
-#linksDeContato p{
+#linksDeContato p {
     font-size: 1.3rem;
     font-weight: bolder;
     font-family: sans-serif;
 }
 
-#footer{
+#footer {
     color: aqua;
     position: fixed;
     bottom: 0;
@@ -286,3 +293,10 @@ h5{
     backdrop-filter: blur(10px);
     font-weight: bolder;
 }
+
+
+@media screen and (min-width: 769px) {
+    
+}
+
+@media screen and (max-width: 768px) {}
