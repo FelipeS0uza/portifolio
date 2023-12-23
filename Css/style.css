@@ -33,7 +33,6 @@ h2 {
     font-family: sans-serif;
     position: relative;
     padding: 0.2rem;
-    border-radius: 10px;
     color: rgb(188, 188, 188);
     text-decoration: none;
     overflow: hidden;
@@ -168,9 +167,6 @@ h1{
     display: flex;
 }
 
-#habilidades{
-    background-color: rgb(3, 101, 133);
-}
 
 #listaDeHabilidades{
     display: flex;
@@ -198,8 +194,8 @@ h1{
     margin-right: 2rem;
 }
 
-#projetos{
-    background-color: rgb(4, 130, 172);
+#projetos, #contatos, #habilidades{
+    background-color: rgb(7, 75, 98);
 }
 
 h5{
@@ -238,9 +234,6 @@ h5{
     color: black;
 }
 
-#contatos{
-    background-color: rgb(2, 161, 214);
-}
 
 #contatoFrase{
     display: flex;
