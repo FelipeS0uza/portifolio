@@ -228,6 +228,15 @@ h1 {
     color: rgb(226, 165, 0);
 }
 
+.projetoExposto img {
+    width: 30vh;
+    transition: 0.5s;
+}
+
+.projetoExposto img:hover {
+    width: 36vh;
+}
+
 
 /*------------------------------------------------------*/
 /* CONTATOS */
