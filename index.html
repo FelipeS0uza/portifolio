@@ -9,8 +9,8 @@
     <title>Felipe Souza</title>
 </head>
 
-<body>
-    <header>
+<body onload="start()">
+    <!-- <header>
         <div id="menu">
             <div class="option">
                 <a href="#home">
@@ -38,8 +38,37 @@
                 </a>
             </div>
         </div>
+    </header> -->
+    <header>
+        <div id="menu">
+            <div class="option">
+                <a href="#home" onclick="selectOption('home')">
+                    <h2>Home</h2>
+                </a>
+            </div>
+            <div class="option">
+                <a href="#sobremim" onclick="selectOption('sobremim')">
+                    <h2>Sobre mim</h2>
+                </a>
+            </div>
+            <div class="option">
+                <a href="#habilidades" onclick="selectOption('habilidades')">
+                    <h2>Habilidades</h2>
+                </a>
+            </div>
+            <div class="option">
+                <a href="#projetos" onclick="selectOption('projetos')">
+                    <h2>Projetos</h2>
+                </a>
+            </div>
+            <div class="option">
+                <a href="#contatos" onclick="selectOption('contatos')">
+                    <h2>Contatos</h2>
+                </a>
+            </div>
+        </div>
     </header>
-
+    
 
     <section id="home">
         <div id="title">
@@ -235,6 +264,8 @@
     <footer id="footer">
         Felipe Souza © 2024
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 

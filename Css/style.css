@@ -62,7 +62,7 @@ h2 {
     transition: 0.4s;
 }
 
-h2:hover {
+h2:hover, a.selected h2 {
     border-bottom: 0.7px solid rgb(201, 157, 255);
     padding: 0.3rem;
     color: white;
