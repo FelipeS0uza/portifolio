@@ -1,253 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Css/style.css">
-    <link rel="shortcut icon" href="./Css/Icons/icon_computer.gif" type="image/x-icon">
     <title>Felipe Souza</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body onload="start()">
     <header>
-        <div id="menu">
-            <div class="option">
-                <a href="#home" onclick="selectOption('home')">
-                    <h2>Home</h2>
-                </a>
-            </div>
-            <div class="option">
-                <a href="#sobremim" onclick="selectOption('sobremim')">
-                    <h2>Sobre mim</h2>
-                </a>
-            </div>
-            <div class="option">
-                <a href="#habilidades" onclick="selectOption('habilidades')">
-                    <h2>Habilidades</h2>
-                </a>
-            </div>
-            <div class="option">
-                <a href="#projetos" onclick="selectOption('projetos')">
-                    <h2>Projetos</h2>
-                </a>
-            </div>
-            <div class="option">
-                <a href="#contatos" onclick="selectOption('contatos')">
-                    <h2>Contatos</h2>
-                </a>
-            </div>
+        <img src="" alt="DESCRIÇÃO DA FOTO">
+        <div>
+            <h1>Hello, I'm Felipe Souza !</h1>
+            <h2>Front End <span class="devSymbol">&#8249;Developer/&#8250;</span> <span class="emoji">&#128187;</span></h2>
         </div>
     </header>
 
+    <main>
+        <section id="aboutMe">
+            <article>
+                <h3>Um pouco de mim</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci laborum ipsa dicta aliquid vel asperiores, quo praesentium cupiditate, quisquam, iusto cumque iste harum error est. Consequuntur tempore quis reprehenderit at. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi ab impedit repellat, facilis perferendis ipsum ullam quisquam saepe cumque commodi aliquam, perspiciatis labore distinctio similique eveniet vitae ea quae</p>
 
-    <section id="home">
-        <div id="title">
-            <h1>Olá, eu sou Felipe Souza !<br /><span id="work">Dev de Aplicações Web Jr.</span></h1>
-        </div>
-        <div id="icons">
-            <img src="./Css/Icons/programmer.gif"
-                alt="https://giphy.com/gifs/dommespace-domme-space-programador-qgQUggAC3Pfv687qPC" id="computer">
-            <div id="iconLanguange">
-                <img src="./Css/Icons/html.png" alt="HTML 5 Icon" class="linguagem">
-                <img src="./Css/Icons/css.png" alt="CSS 3 Icon" class="linguagem">
-                <img src="./Css/Icons/js.png" alt="JavaScript Icon" class="linguagem">
-                <img src="./Css/Icons/sql.png" alt="SQL Icon" class="linguagem">
+            </article>
+
+            <article>
+                <h3>Skills</h3>
+                <ul>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>MySQL</li>
+                    <li>GIT/GitHub</li>
+                    <li>Python(básico)</li>
+                    <li>Office(Word, Excel, Power Point)</li>
+                    <li>Lógica de programação</li>
+                    <li>Processos Ágeis(Kanban/Trello)</li>
+                    <li>SAC</li>
+                    <li>Gestão Operacional</li>
+                </ul>
+
+            </article>
+
+        </section>
+        <section id="contacts">
+            <h3>Contatos</h3>
+            <div id="buttons">
+                <a href="https://www.linkedin.com/in/felipe-rodrigues2023/" target="_blank"><button id="linkedin">Linkedin</button></a>
+
+                <a href="https://api.whatsapp.com/send/?phone=5518991451926&text=Ol%C3%A1%21+Vi+seu+portif%C3%B3lio%2C+podemos+conversar+%3F&type=phone_number&app_absent=0" target="_blank"><button id="whatsapp">Whatsapp</button></a>
+
+                <a href="https://github.com/FelipeS0uza" target="_blank"><button id="github">GitHub</button></a>
+
+                <a href="https://www.instagram.com/felipe.rsza/" target="_blank"><button id="instagram">Instagram</button></a>
+
+                <a href="mailto:felipesouza0500@gmail.com"><button id="email">Email</button></a>
             </div>
-        </div>
-    </section>
 
-    <section id="sobremim">
-        <h3>Sobre mim</h3>
-        <div id="img_bio">
-            <div id="pessoa">
-                <img src="./Css/Icons/pessoa.png" alt="https://www.flaticon.com/br/icones-gratis/pessoas">
-            </div>
-            <div id="bio">
-                <div>
-                    <h4>Biografia</h4>
-                    <p>Meu nome é Felipe, tenho 19 anos e sou apaixonado por tecnologia desde 2018, quando fiz meu 1º
-                        ano do ensino médio junto com o curso de Técnico em Informática para Internet.
-                        <br>
-                        Atualmente meu foco é me profissionalizar em desenvolvimento e análise de software para me
-                        tornar um Dev Full Stack!
-                    </p>
-                    <h4>Formação Acadêmica</h4>
-                    <p>FIPP - Unoeste</p>
-                    <p>Análise e Desenvolvimento de Sistemas</p>
-                    <p>Conclusão em 06/2024</p>
-                </div>
-                <div>
-                    <h4>Histórico Profissional</h4>
-                    <p>Analista de Setor Técnico <br/>
-                        Empresa: Quality Infraestrutua e Serviços - Fevereiro/2024 - Atual</p>
-                    <p>Estagiário de TI<br />
-                        Empresa: Prefeitura de Santo Anastácio - Abril/2023 - Janeiro/2024</p>
-                    <p>Supervisor Administrativo<br />
-                        Empresa: Phonevox Technology - Maio/2021 - março/2023</p>
-                    <p>Atendente de Telemarketing <br />
-                        Empresa: Phonevox Technology - Abril/2019 - abril/2021</p>
+        </section>
 
-                    <!-- ADD BOTÃO DE DOWLOAD DE CURRICULO -->
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="habilidades">
-        <h3>Habilidades e Conhecimentos</h3>
-        <div id="listaDeHabilidades">
-            <div class="parteDaLista">
-                <div>
-                    <img src="./Css/Icons/html.png">
-                    <p>HTML 5</p>
-                </div>
-                <div>
-                    <img src="./Css/Icons/css.png">
-                    <p>CSS</p>
-                </div>
-                <div>
-                    <img src="./Css/Icons/js.png">
-                    <p>JavaScript</p>
-                </div>
-                <div>
-                    <img src="./Css/Icons/sql.png">
-                    <p>SQL</p>
-                </div>
-            </div>
-            <div class="parteDaLista">
-                <div>
-                    <img src="./Css/Icons/engenharia.png">
-                    <p>Processos Ágeis</p>
-                </div>
-                <div>
-                    <img src="./Css/Icons/ideia.png">
-                    <p>Lógica de Programação</p>
-                </div>
-                <div>
-                    <img src="./Css/Icons/word.png">
-                    <p>Word</p>
-                </div>
-                <div>
-                    <img src="./Css/Icons/excel.png">
-                    <p>Excel</p>
-                </div>
-            </div>
-            <div class="parteDaLista">
-                <div>
-                    <img src="./Css/Icons/power-point.png">
-                    <p>Power point</p>
-                </div>
-                <div>
-                    <img src="./Css/Icons/gerente-de-tempo.png">
-                    <p>Gestão de tempo e<br /> Organização</p>
-                </div>
-                <div>
-                    <img src="./Css/Icons/comunicacao-etica.png">
-                    <p>Comunicação</p>
-                </div>
-                <div>
-                    <img src="./Css/Icons/computador-desktop.png">
-                    <p>Informática</p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section id="projetos">
-        <h3>Projetos</h3>
-        <div id="exemplares">
-            <a href="https://felipes0uza.github.io/Temperature-converter/" target="_blank">
-                <div class="projetoExposto">
-                    <img src="projectsPictures/temperature converter.png" />
-                </div>
-                <h6>Conversor de Temperatura</h6>
-            </a>
-            <a href="">
-                <div class="projetoExposto">
-                    <p>Em desenvolvimento...</p>
-                </div>
-                <h6></h6>
-            </a>
-            <a href="">
-                <div class="projetoExposto">
-                    <p>Em desenvolvimento...</p>
-                </div>
-                <h6></h6>
-            </a>
-            <a href="">
-                <div class="projetoExposto">
-                    <p>Em desenvolvimento...</p>
-                </div>
-                <h6></h6>
-            </a>
-            <a href="">
-                <div class="projetoExposto">
-                    <p>Em desenvolvimento...</p>
-                </div>
-                <h6></h6>
-            </a>
+    </main>
 
 
-        </div>
-    </section>
 
-    <section id="contatos">
-        <h3>Contatos</h3>
-        <div id="contatoFrase">
-            <div id="linksDeContato">
-                <div>
-                    <a href="https://www.linkedin.com/in/felipe-rodrigues2023/" target="blank">
-                        <img src="./Css/Icons/linkedin.png" alt="Linkedin" />
-                    </a>
-                    <p>LINKEDIN</p>
-
-                    <a href="https://api.whatsapp.com/send/?phone=5518991451926&text=Ol%C3%A1%21+Vi+seu+portif%C3%B3lio%2C+podemos+conversar+%3F&type=phone_number&app_absent=0"
-                        target="blank">
-                        <img src="./Css/Icons/whatsapp.png" alt="WhatsApp" />
-                    </a>
-                    <p>WHATSAPP</p>
-                </div>
-                <div>
-                    <a href="https://www.instagram.com/felipe_rsza/" target="blank">
-                        <img src="./Css/Icons/instagram.png" alt="Instagram" />
-                    </a>
-                    <p>INSTAGRAM</p>
-
-                    <a href="https://github.com/FelipeS0uza" target="blank">
-                        <img src="./Css/Icons/github.png" alt="GitHub" />
-                    </a>
-                    <p>GIT HUB</p>
-                </div>
-
-                <div id="gmail">
-                    <a href="mailto:felipesouza0500@gmail.com" target="blank">
-                        <img src="./Css/Icons/gmail.png" alt="Gmail" />
-                    </a>
-                    <p>GMAIL<br />felipesouza0500@gmail.com</p>
-                </div>
-
-            </div>
-            <div>
-                <p id="frase">
-                    “Há duas formas de construir um projeto de software: Uma maneira de fazer isso deve ser tão simples
-                    que, obviamente, não deixem deficiências, e a outra forma é a de torná-lo tão complicado que não
-                    percebam as evidentes deficiências. O primeiro método é muito mais difícil.”
-                    <br />
-                    <span><a href="https://www.microsoft.com/en-us/research/people/thoare/" target="_blank">~Tony
-                            Hoare~</a></span>
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <footer id="footer">
-        Felipe Souza © 2024
-    </footer>
-
-    <script src="script.js"></script>
-
+    <script href="script.js"></script>
 </body>
-
 </html>

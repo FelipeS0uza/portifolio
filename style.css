@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Share+Tech+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #33768E;
+    height: 100vh;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header img {
+    border: 3px solid #000000;
+    border-radius: 28px;
+    height: 45vh;
+    width: 40vh;
+}
+
+header div {
+    margin-left: 90px
+}
+
+header div h1 {
+    font-size: 5.5vh;
+    color: #DAFFF6;
+    font-family: "Inter", sans-serif;
+    font-weight: 350;
+    margin-bottom: 40px
+}
+
+header div h2 {
+    font-size: 6vh;
+    color: #DAFFF6;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.devSymbol {
+    font-size: 6.5vh;
+    font-family: "Share Tech Mono", monospace;
+    color:#7d0101
+}
+
+.emoji {
+    font-style: normal;
+}
+
+main {
+    height: 100vh;
+}
+
+#aboutMe {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+article {
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    width: 70vh;
+    height: auto;
+    background-color: #4F8699;
+    padding: 15px;
+    overflow: hidden
+}
+
+h3 {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 15px;
+}
+
+article p {
+    color: #fff;
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+}
+
+article ul li {
+    color: #fff;
+    font-size: 27px;
+    margin-bottom: 2px;
+    font-family: "Inter", sans-serif;
+}
+
+ul {
+    list-style: inside;
+}
+
+#contacts {
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#buttons button {
+    width: 30vh;
+    height: 8vh;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#linkedin {
+    color: #fff;
+    background-color: #0A66C2;
+    border-radius: 6px;
+    border: 3px solid #0A66C2;
+}
+
+#whatsapp {
+    color: #fff;
+    background-color: #25D366;
+    border-radius: 6px;
+    border: 3px solid #25D366;
+}
+
+#github {
+    color: #fff;
+    background-color: #25292E;
+    border-radius: 6px;
+    border: 3px solid #25292E;
+}
+
+#instagram {
+    color: #fff;
+    background: linear-gradient(24deg, rgba(252,202,65,1) 0%, rgba(222,63,129,1) 74%, rgba(147,55,172,1) 100%);
+    border-radius: 6px;
+    border: 3px solid #d6249f;
+}
+
+#email {
+    color: #fff;
+    background-color: #AF2320;
+    border-radius: 6px;
+    border: 3px solid #AF2320;
+}
