@@ -101,16 +101,18 @@ article ul li {
 }
 
 ul {
-    list-style: inside;
+    list-style: none;
 }
 
 #contacts {
     text-align: center;
+    margin-top: 10vh;
 }
 
 #buttons {
     display: flex;
     justify-content: space-around;
+    margin-top: 7vh;
 }
 
 #buttons button {
@@ -119,46 +121,78 @@ ul {
     font-size: 25px;
     text-decoration: none;
     transition: 400ms;
+    border: 3px solid #202020;
 }
 
 #linkedin {
     color: #fff;
     background-color: #0A66C2;
     border-radius: 6px;
-    border: 3px solid #0A66C2;
 }
 
 #whatsapp {
     color: #fff;
     background-color: #25D366;
     border-radius: 6px;
-    border: 3px solid #25D366;
 }
 
 #github {
     color: #fff;
     background-color: #25292E;
     border-radius: 6px;
-    border: 3px solid #25292E;
 }
 
 #instagram {
     color: #fff;
     background: linear-gradient(24deg, rgba(252,202,65,1) 0%, rgba(222,63,129,1) 74%, rgba(147,55,172,1) 100%);
     border-radius: 6px;
-    border: 3px solid #d6249f;
 }
 
 #email {
     color: #fff;
     background-color: #AF2320;
     border-radius: 6px;
-    border: 3px solid #AF2320;
 }
 
 #linkedin:hover, #whatsapp:hover, #github:hover, #instagram:hover, #email:hover {
-    transition:500ms;
+    transition:400ms;
     cursor: pointer;
     border-radius: 40px;
-    border: 3px solid #fff
+    border: 4px solid #202020
+}
+
+#projects {
+    margin-top: 14vh;
+    text-align: center;
+}
+
+#projectEx {
+    margin-top: 5vh;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+}
+
+#projectImg {
+    border: 2px solid black;
+    width: 70vh;
+}
+
+#projectText {
+    width: 100vh;
+    padding: 30px;
+}
+
+h4 {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#projectText p {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 20px;
 }
