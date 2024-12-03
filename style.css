@@ -8,7 +8,7 @@
 
 body {
     box-sizing: border-box;
-    background-color: #33768E;
+    background-color: #565656;
     height: 100vh;
 }
 
@@ -50,7 +50,7 @@ header div h2 {
 .devSymbol {
     font-size: 6.5vh;
     font-family: "Share Tech Mono", monospace;
-    color:#7d0101
+    color:#ff1100
 }
 
 .emoji {
@@ -69,14 +69,15 @@ main {
 }
 
 article {
-    border: 2px solid #ffffff;
+    /* border: 2px solid #ffffff; */
     border-radius: 30px;
     text-align: center;
     width: 70vh;
     height: auto;
-    background-color: #4F8699;
+    background-color: #a73838;
     padding: 15px;
-    overflow: hidden
+    overflow: hidden;
+    box-shadow: 9px 9px 10px 10px;
 }
 
 h3 {
@@ -117,6 +118,7 @@ ul {
     height: 8vh;
     font-size: 25px;
     text-decoration: none;
+    transition: 400ms;
 }
 
 #linkedin {
@@ -152,4 +154,11 @@ ul {
     background-color: #AF2320;
     border-radius: 6px;
     border: 3px solid #AF2320;
+}
+
+#linkedin:hover, #whatsapp:hover, #github:hover, #instagram:hover, #email:hover {
+    transition:500ms;
+    cursor: pointer;
+    border-radius: 40px;
+    border: 3px solid #fff
 }
