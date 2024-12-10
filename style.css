@@ -8,8 +8,8 @@
 
 body {
     box-sizing: border-box;
-    background-color: #565656;
-    height: 100vh;
+    background-color: #1E1E2E;
+    color: #E6E6E6;
 }
 
 header {
@@ -27,13 +27,13 @@ header img {
     width: 40vh;
 }
 
-header div {
-    margin-left: 90px
+#presentation {
+    margin-left: 90px;
 }
 
 header div h1 {
     font-size: 5.5vh;
-    color: #DAFFF6;
+    color: #8BE9FD;
     font-family: "Inter", sans-serif;
     font-weight: 350;
     margin-bottom: 40px
@@ -41,7 +41,7 @@ header div h1 {
 
 header div h2 {
     font-size: 6vh;
-    color: #DAFFF6;
+    color: #8BE9FD;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -50,7 +50,7 @@ header div h2 {
 .devSymbol {
     font-size: 6.5vh;
     font-family: "Share Tech Mono", monospace;
-    color:#ff1100
+    color:#FF5555
 }
 
 .emoji {
@@ -69,19 +69,18 @@ main {
 }
 
 article {
-    /* border: 2px solid #ffffff; */
     border-radius: 30px;
     text-align: center;
     width: 70vh;
     height: auto;
-    background-color: #a73838;
+    background-color: #282A36;
     padding: 15px;
     overflow: hidden;
-    box-shadow: 9px 9px 10px 10px;
+    box-shadow: 9px 9px 15px #000000;
 }
 
 h3 {
-    color: #fff;
+    color: #FF79C6;
     font-size: 40px;
     font-family: "Inter", sans-serif;
     margin-bottom: 15px;
@@ -106,59 +105,64 @@ ul {
 
 #contacts {
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 4vh;
+}
+
+#contacts h3 {
+    color: #8BE9FD;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 #buttons {
     display: flex;
-    justify-content: space-around;
-    margin-top: 7vh;
+    flex-direction: column;
+}
+
+#buttons div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 18px;
 }
 
 #buttons button {
-    width: 30vh;
-    height: 8vh;
+    width: 25vh;
+    height: 6vh;
     font-size: 25px;
     text-decoration: none;
     transition: 400ms;
-    border: 3px solid #202020;
+    border: 2px solid #8BE9FD;
+    background-color: transparent;
+    border-radius: 6px;
+    color: #E6E6E6;
 }
 
-#linkedin {
-    color: #fff;
-    background-color: #0A66C2;
-    border-radius: 6px;
+#linkedin:hover {
+    color: #0077B6;
+    border: 3.5px solid #0077B6
 }
 
-#whatsapp {
-    color: #fff;
-    background-color: #25D366;
-    border-radius: 6px;
+#whatsapp:hover {
+    color: #25D366;
+    border: 3.5px solid #25D366
 }
 
-#github {
-    color: #fff;
-    background-color: #25292E;
-    border-radius: 6px;
+#github:hover {
+    color: #ffffff;
+    border: 3.5px solid #ffffff
 }
 
-#instagram {
-    color: #fff;
-    background: linear-gradient(24deg, rgba(252,202,65,1) 0%, rgba(222,63,129,1) 74%, rgba(147,55,172,1) 100%);
-    border-radius: 6px;
+#instagram:hover {
+    color: #DD2A7B;
+    border: 3.5px solid #DD2A7B
 }
 
-#email {
-    color: #fff;
-    background-color: #AF2320;
-    border-radius: 6px;
-}
 
 #linkedin:hover, #whatsapp:hover, #github:hover, #instagram:hover, #email:hover {
-    transition:400ms;
+    transition:300ms;
     cursor: pointer;
-    border-radius: 40px;
-    border: 4px solid #202020
+    border-radius: 30px;
+    font-size: 26px;
 }
 
 #projects {
