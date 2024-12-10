@@ -176,10 +176,12 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 45px;
+    flex-wrap: wrap;
 }
 
 #projectImg {
-    border: 2px solid black;
+    border: 5px solid black;
+    border-radius: 20px;
     width: 70vh;
 }
 
