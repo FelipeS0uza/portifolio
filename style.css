@@ -207,18 +207,10 @@ h4 {
 
 /* RESPONSIVIDADE */
 @media (max-width: 1024px) {
-    header {
-        flex-direction: column;
-    }
-
-    #presentation {
-        margin-left: 0;
-        text-align: center;
-    }
-
     header img {
         height: 30vh;
         width: 30vh;
+        margin-bottom: 20px;
     }
 
     header div h1, header div h2 {
@@ -226,50 +218,125 @@ h4 {
     }
 
     .devSymbol {
-        font-size: 5vh;
+        font-size: 4.5vh;
     }
 
     article {
-        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    article p, article ul li {
+        font-size: 18px;
+    }
+
+    #aboutMe {
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    #projects {
+        margin-top: 1vh;
+    }
+
+    #projectEx {
+        margin-top: 1vh;
+        padding: 15px;
+        justify-content: center;
+    }
+
+    #projectText p {
+        font-size: 19px;
     }
 
     #buttons button {
-        width: 90%;
-        height: 5vh;
-        font-size: 20px;
+        font-size: 18px;
+        height: 6vh;
+        width: 19vh;
     }
 
-    #projectImg {
-        width: 90%;
+    #linkedin:hover, #whatsapp:hover, #github:hover, #instagram:hover, #email:hover {
+        transition:300ms;
+        cursor: pointer;
+        border-radius: 30px;
+        font-size: 19px;
     }
 
-    #projectText {
-        width: 100%;
-        text-align: center;
+    #buttons div {
+        gap: 15px;
     }
 }
 
 @media (max-width: 768px) {
     header img {
-        height: 25vh;
-        width: 25vh;
+        height: 30vh;
+        width: 30vh;
+        margin-bottom: 20px;
     }
 
     header div h1, header div h2 {
-        font-size: 3.5vh;
+        font-size: 4vh;
+    }
+
+    .devSymbol {
+        font-size: 4.5vh;
+    }
+
+    article {
+        margin-bottom: 50px;
     }
 
     article p, article ul li {
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    #aboutMe {
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    #projects {
+        margin-top: 1vh;
+    }
+
+    #projectEx {
+        margin-top: 1vh;
+        padding: 15px;
+        justify-content: center;
+    }
+
+    #projectText p {
+        font-size: 19px;
     }
 
     #buttons button {
         font-size: 18px;
-        height: 5vh;
+        height: 6vh;
+        width: 19vh;
     }
 
-    #contacts h3 {
-        font-size: 28px;
+    #linkedin:hover, #whatsapp:hover, #github:hover, #instagram:hover, #email:hover {
+        transition:300ms;
+        cursor: pointer;
+        border-radius: 30px;
+        font-size: 19px;
+    }
+
+    #buttons div {
+        gap: 15px;
     }
 }
 
