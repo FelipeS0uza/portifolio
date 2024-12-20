@@ -59,7 +59,7 @@ header div h2 {
 }
 
 main {
-    height: 100vh;
+    height: auto;
 }
 
 #aboutMe {
@@ -82,7 +82,7 @@ article {
 }
 
 h3 {
-    color: #FF79C6;
+    color: #fca7a7;
     font-size: 40px;
     font-family: "Inter", sans-serif;
     margin-bottom: 15px;
@@ -151,8 +151,8 @@ ul {
 }
 
 #github:hover {
-    color: #ffffff;
-    border: 3.5px solid #ffffff
+    color: #6e6e6e;
+    border: 3.5px solid #6e6e6e
 }
 
 #instagram:hover {
@@ -203,6 +203,16 @@ h4 {
     font-family: "Inter", sans-serif;
     color: #fff;
     font-size: 20px;
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;;
 }
 
 /* RESPONSIVIDADE */
