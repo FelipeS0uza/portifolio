@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Share+Tech+Mono&display=swap');
 
+
+:root {
+    --colorWhite: #fff;
+    --colorTitles: #8BE9FD;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +40,7 @@ header img {
 
 header div h1 {
     font-size: 5.5vh;
-    color: #8BE9FD;
+    color: var(--colorTitles);
     font-family: "Inter", sans-serif;
     font-weight: 350;
     margin-bottom: 40px
@@ -42,7 +48,7 @@ header div h1 {
 
 header div h2 {
     font-size: 6vh;
-    color: #8BE9FD;
+    color: var(--colorTitles);
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -82,20 +88,20 @@ article {
 }
 
 h3 {
-    color: #fca7a7;
+    color: #FF5555;
     font-size: 40px;
     font-family: "Inter", sans-serif;
     margin-bottom: 15px;
 }
 
 article p {
-    color: #fff;
+    color: var(--colorWhite);
     font-size: 28px;
     font-family: "Inter", sans-serif;
 }
 
 article ul li {
-    color: #fff;
+    color: var(--colorWhite);
     font-size: 27px;
     margin-bottom: 2px;
     font-family: "Inter", sans-serif;
@@ -111,7 +117,7 @@ ul {
 }
 
 #contacts h3 {
-    color: #8BE9FD;
+    color: var(--colorTitles);
     font-size: 32px;
     font-weight: 400;
 }
@@ -134,7 +140,7 @@ ul {
     font-size: 25px;
     text-decoration: none;
     transition: 400ms;
-    border: 2px solid #8BE9FD;
+    border: 2px solid var(--colorTitles);
     background-color: transparent;
     border-radius: 6px;
     color: #E6E6E6;
@@ -194,20 +200,20 @@ ul {
 
 h4 {
     font-family: "Inter", sans-serif;
-    color: #fff;
+    color: var(--colorWhite);
     font-size: 35px;
     margin-bottom: 20px;
 }
 
 #projectText p {
     font-family: "Inter", sans-serif;
-    color: #fff;
+    color: var(--colorWhite);
     font-size: 20px;
 }
 
 footer {
     padding: 10px;
-    color: white;
+    color: var(--colorWhite);
     background-color: black;
     text-align: center;
     font-size: 18px;
