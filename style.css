@@ -3,8 +3,10 @@
 
 
 :root {
-    --colorWhite: #fff;
-    --colorTitles: #8BE9FD;
+    --colorBG: #1E1E2E;
+    --colorText: #fff;
+    --colorPresentation: #8BE9FD;
+    --colorTitle: #FF5555;
 }
 
 * {
@@ -14,8 +16,7 @@
 }
 
 body {
-    background-color: #1E1E2E;
-    color: #E6E6E6;
+    background-color: var(--colorBG);
 }
 
 header {
@@ -40,7 +41,7 @@ header img {
 
 header div h1 {
     font-size: 5.5vh;
-    color: var(--colorTitles);
+    color: var(--colorPresentation);
     font-family: "Inter", sans-serif;
     font-weight: 350;
     margin-bottom: 40px
@@ -48,7 +49,7 @@ header div h1 {
 
 header div h2 {
     font-size: 6vh;
-    color: var(--colorTitles);
+    color: var(--colorPresentation);
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -57,7 +58,7 @@ header div h2 {
 .devSymbol {
     font-size: 6.5vh;
     font-family: "Share Tech Mono", monospace;
-    color:#FF5555
+    color:var(--colorTitle)
 }
 
 .emoji {
@@ -88,20 +89,20 @@ article {
 }
 
 h3 {
-    color: #FF5555;
+    color: var(--colorTitle);
     font-size: 40px;
     font-family: "Inter", sans-serif;
     margin-bottom: 15px;
 }
 
 article p {
-    color: var(--colorWhite);
+    color: var(--colorText);
     font-size: 28px;
     font-family: "Inter", sans-serif;
 }
 
 article ul li {
-    color: var(--colorWhite);
+    color: var(--colorText);
     font-size: 27px;
     margin-bottom: 2px;
     font-family: "Inter", sans-serif;
@@ -117,7 +118,7 @@ ul {
 }
 
 #contacts h3 {
-    color: var(--colorTitles);
+    color: var(--colorPresentation);
     font-size: 32px;
     font-weight: 400;
 }
@@ -140,10 +141,10 @@ ul {
     font-size: 25px;
     text-decoration: none;
     transition: 400ms;
-    border: 2px solid var(--colorTitles);
+    border: 2px solid var(--colorPresentation);
     background-color: transparent;
     border-radius: 6px;
-    color: #E6E6E6;
+    color: var(--colorText);
 }
 
 #linkedin:hover {
@@ -169,7 +170,7 @@ ul {
 #linkedin:hover, #whatsapp:hover, #github:hover, #instagram:hover, #email:hover {
     transition:300ms;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 20px;
     font-size: 26px;
 }
 
@@ -200,20 +201,20 @@ ul {
 
 h4 {
     font-family: "Inter", sans-serif;
-    color: var(--colorWhite);
+    color: var(--colorText);
     font-size: 35px;
     margin-bottom: 20px;
 }
 
 #projectText p {
     font-family: "Inter", sans-serif;
-    color: var(--colorWhite);
+    color: var(--colorText);
     font-size: 20px;
 }
 
 footer {
     padding: 10px;
-    color: var(--colorWhite);
+    color: var(--colorText);
     background-color: black;
     text-align: center;
     font-size: 18px;
