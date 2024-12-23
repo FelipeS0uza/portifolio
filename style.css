@@ -26,31 +26,55 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 header img {
     border: 3px solid #000000;
     border-radius: 28px;
-    height: 45vh;
-    width: 40vh;
+    width: 20%;
 }
 
 #headerDiv {
-    margin-left: 90px;
+    margin-left: 5.625rem;
 }
 
 h1 {
-    font-size: 6vh;
+    font-size: 2.8rem;
     color: var(--colorPresentation);
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     font-style: italic;
+    overflow: hidden; /* Esconde o texto extra */
+    white-space: nowrap; /* Evita quebra de linha */
+    border-right: 2px solid #333; /* Simula o cursor */
+    width: 0; /* Inicialmente, o texto não é visível */
+    animation: typing 4s steps(30, end) forwards, blink 0.6s step-end infinite;
+}
+
+/* Animação para o texto aparecer */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%; /* Mostra o texto completo */
+    }
+}
+
+/* Animação do cursor piscando */
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: #333;
+    }
 }
 
 .devSymbol {
-    font-size: 6.5vh;
+    font-size: 2.8rem;
     font-family: "Share Tech Mono", monospace;
     color:var(--colorTitle)
 }
@@ -60,10 +84,10 @@ h1 {
 }
 
 header div h3 {
-    margin-top: 4vh;
+    margin-top: 2rem;
     text-align: center;
     color: var(--colorPresentation);
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 400;
 }
 
@@ -75,14 +99,14 @@ header div h3 {
 #buttons div {
     display: flex;
     justify-content: space-evenly;
-    margin: 18px;
+    margin: 1.125rem;
     flex-wrap: wrap;
 }
 
 #buttons button {
-    width: 25vh;
-    height: 6vh;
-    font-size: 25px;
+    width: 11rem;
+    height: 3rem;
+    font-size: 1.563rem;
     text-decoration: none;
     transition: 400ms;
     border: 2px solid var(--colorPresentation);
@@ -125,7 +149,7 @@ main {
 #aboutMe {
     display: flex;
     justify-content: space-around;
-    padding: 30px;
+    padding: 1.875rem;
     flex-wrap: wrap;
 }
 
@@ -135,30 +159,31 @@ article {
     width: 70vh;
     height: auto;
     background-color: #282A36;
-    padding: 15px;
+    padding: 0.938rem;
     overflow: hidden;
     box-shadow: 9px 9px 15px #000000;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 h3 {
     color: var(--colorTitle);
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: "Inter", sans-serif;
-    margin-bottom: 15px;
+    margin-bottom: 0.938rem;
 }
 
 article p {
     color: var(--colorText);
-    font-size: 28px;
+    font-size: 1.75rem;
     font-family: "Inter", sans-serif;
 }
 
 article ul li {
     color: var(--colorText);
-    font-size: 27px;
+    font-size: 1.7rem;
     margin-bottom: 2px;
     font-family: "Inter", sans-serif;
+    padding: 3.5px;
 }
 
 ul {
@@ -166,49 +191,48 @@ ul {
 }
 
 #projects {
-    margin-top: 14vh;
+    margin-top: 6rem;
     text-align: center;
 }
 
 #projectEx {
-    margin-top: 5vh;
+    margin-top: 3rem;
     height: auto;
     display: flex;
-    justify-content: space-between;
-    padding: 45px;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2.8rem;
 }
 
-#projectImg {
+.projectImg {
     border: 5px solid black;
     border-radius: 20px;
-    width: 70vh;
+    width: 70%;
 }
 
 #projectText {
-    width: 100vh;
-    padding: 30px;
+    width: 45rem;
+    padding: 2rem;
 }
 
 h4 {
     font-family: "Inter", sans-serif;
     color: var(--colorText);
-    font-size: 35px;
-    margin-bottom: 20px;
+    font-size: 2.1rem;
+    margin-bottom: 1.25rem;
 }
 
 #projectText p {
     font-family: "Inter", sans-serif;
     color: var(--colorText);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 footer {
-    padding: 10px;
+    padding: 0.6rem;
     color: var(--colorText);
     background-color: black;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 400;
     font-family: "Inter", sans-serif;
 }
