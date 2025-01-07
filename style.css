@@ -26,7 +26,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 1.25rem;
 }
 
 header img {
@@ -74,14 +73,12 @@ h1 {
 }
 
 .devSymbol {
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-family: "Share Tech Mono", monospace;
-    color:var(--colorTitle)
+    color:var(--colorTitle);
+    font-weight: 600;
 }
 
-.emoji {
-    font-style: normal;
-}
 
 header div h3 {
     margin-top: 2rem;
@@ -99,7 +96,7 @@ header div h3 {
 #buttons div {
     display: flex;
     justify-content: space-evenly;
-    margin: 1.125rem;
+    margin: 1.13rem;
     flex-wrap: wrap;
 }
 
@@ -149,20 +146,21 @@ main {
 #aboutMe {
     display: flex;
     justify-content: space-around;
-    padding: 1.875rem;
+    padding: 1.87rem;
     flex-wrap: wrap;
 }
 
 article {
     border-radius: 30px;
     text-align: center;
-    width: 70vh;
+    width: 45rem;
     height: auto;
     background-color: #282A36;
     padding: 0.938rem;
     overflow: hidden;
     box-shadow: 9px 9px 15px #000000;
     margin-bottom: 1.25rem;
+    margin-top: 4rem;
 }
 
 h3 {
@@ -195,18 +193,23 @@ ul {
     text-align: center;
 }
 
-#projectEx {
+.projectEx {
     margin-top: 3rem;
     height: auto;
     display: flex;
     justify-content: space-evenly;
-    padding: 2.8rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+}
+
+.projectEx:nth-child(2n + 1) {
+    flex-wrap: wrap-reverse;
 }
 
 .projectImg {
     border: 5px solid black;
     border-radius: 20px;
-    width: 70%;
+    width: 80%;
 }
 
 #projectText {
@@ -238,204 +241,6 @@ footer {
 }
 
 /* RESPONSIVIDADE */
-@media (max-width: 1024px) {
-    header img {
-        height: 30vh;
-        width: 30vh;
-        margin-bottom: 20px;
-    }
-
-    header div h1, header div h2 {
-        font-size: 4vh;
-    }
-
-    .devSymbol {
-        font-size: 4.5vh;
-    }
-
-    article {
-        margin-bottom: 50px;
-    }
-
-    article p, article ul li {
-        font-size: 18px;
-    }
-
-    #aboutMe {
-        padding: 20px;
-    }
-
-    h3 {
-        font-size: 28px;
-    }
-
-    h4 {
-        font-size: 25px;
-    }
-
-    #projects {
-        margin-top: 1vh;
-    }
-
-    #projectEx {
-        margin-top: 1vh;
-        padding: 15px;
-        justify-content: center;
-    }
-
-    #projectText p {
-        font-size: 19px;
-    }
-
-    #buttons button {
-        font-size: 18px;
-        height: 6vh;
-        width: 19vh;
-    }
-
-    #linkedin:hover, #whatsapp:hover, #github:hover, #instagram:hover, #email:hover {
-        transition:300ms;
-        cursor: pointer;
-        border-radius: 30px;
-        font-size: 19px;
-    }
-
-    #buttons div {
-        gap: 15px;
-    }
-}
-
-@media (max-width: 768px) {
-    header img {
-        height: 30vh;
-        width: 30vh;
-        margin-bottom: 20px;
-    }
-
-    header div h1, header div h2 {
-        font-size: 4vh;
-    }
-
-    .devSymbol {
-        font-size: 4.5vh;
-    }
-
-    article {
-        margin-bottom: 50px;
-    }
-
-    article p, article ul li {
-        font-size: 18px;
-    }
-
-    #aboutMe {
-        padding: 20px;
-    }
-
-    h3 {
-        font-size: 28px;
-    }
-
-    h4 {
-        font-size: 25px;
-    }
-
-    #projects {
-        margin-top: 1vh;
-    }
-
-    #projectEx {
-        margin-top: 1vh;
-        padding: 15px;
-        justify-content: center;
-    }
-
-    #projectText p {
-        font-size: 19px;
-    }
-
-    #buttons button {
-        font-size: 18px;
-        height: 6vh;
-        width: 19vh;
-    }
-
-    #linkedin:hover, #whatsapp:hover, #github:hover, #instagram:hover, #email:hover {
-        transition:300ms;
-        cursor: pointer;
-        border-radius: 30px;
-        font-size: 19px;
-    }
-
-    #buttons div {
-        gap: 15px;
-    }
-}
-
-
-@media (max-width: 480px) {
-    header img {
-        height: 30vh;
-        width: 30vh;
-        margin-bottom: 20px;
-    }
-
-    header div h1, header div h2 {
-        font-size: 4vh;
-    }
-
-    .devSymbol {
-        font-size: 4.5vh;
-    }
-
-    article {
-        margin-bottom: 50px;
-    }
-
-    article p, article ul li {
-        font-size: 18px;
-    }
-
-    #aboutMe {
-        padding: 20px;
-    }
-
-    h3 {
-        font-size: 28px;
-    }
-
-    h4 {
-        font-size: 25px;
-    }
-
-    #projects {
-        margin-top: 1vh;
-    }
-
-    #projectEx {
-        margin-top: 1vh;
-        padding: 15px;
-        justify-content: center;
-    }
-
-    #projectText p {
-        font-size: 19px;
-    }
-
-    #buttons button {
-        font-size: 18px;
-        height: 6vh;
-        width: 19vh;
-    }
-
-    #linkedin:hover, #whatsapp:hover, #github:hover, #instagram:hover, #email:hover {
-        transition:300ms;
-        cursor: pointer;
-        border-radius: 30px;
-        font-size: 19px;
-    }
-
-    #buttons div {
-        gap: 15px;
-    }
-}
+/* @media (max-width: ) {
+   
+} */
