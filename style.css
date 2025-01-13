@@ -7,6 +7,7 @@
     --colorText: #fff;
     --colorPresentation: #8BE9FD;
     --colorTitle: #FF5555;
+    --font:"Inter"
 
 }
 
@@ -18,37 +19,33 @@
 
 body {
     background-color: var(--colorBG);
+    font-family: var(--font);
 }
 
-header {
+#home {
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-header img {
+.my_photo {
     border: 3px solid #000000;
     border-radius: 28px;
     width: 20%;
 }
 
-#headerDiv {
-    margin-left: 5.625rem;
-}
 
 h1 {
     font-size: 2.8rem;
     color: var(--colorPresentation);
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     margin-bottom: 2.5rem;
     font-style: italic;
     overflow: hidden; /* Esconde o texto extra */
     white-space: nowrap; /* Evita quebra de linha */
-    border-right: 2px solid #333; /* Simula o cursor */
     width: 0; /* Inicialmente, o texto não é visível */
-    animation: typing 4s steps(30, end) forwards, blink 0.6s step-end infinite;
+    animation: typing 4s steps(30, end) forwards, blink 0.6s step-end;
 }
 
 /* Animação para o texto aparecer */
@@ -61,16 +58,6 @@ h1 {
     }
 }
 
-/* Animação do cursor piscando */
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
-    100% {
-        border-color: #333;
-    }
-}
-
 .devSymbol {
     font-size: 3rem;
     font-family: "Share Tech Mono", monospace;
@@ -79,7 +66,7 @@ h1 {
 }
 
 
-header div h3 {
+h2 {
     margin-top: 2rem;
     text-align: center;
     color: var(--colorPresentation);
@@ -87,56 +74,53 @@ header div h3 {
     font-weight: 400;
 }
 
-#buttons {
-    display: flex;
-    flex-direction: column;
-}
-
-#buttons div {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 1.13rem;
-    flex-wrap: wrap;
-}
-
-#buttons button {
-    width: 11rem;
-    height: 3rem;
-    font-size: 1.563rem;
+#home a {
+    width: 9rem;
+    font-size: 1.5rem;
     text-decoration: none;
     transition: 400ms;
     border: 2px solid var(--colorPresentation);
     background-color: transparent;
     border-radius: 6px;
     color: var(--colorText);
+    padding: 8px;
+    margin: 10px;
+    text-align: center;
 }
 
-#linkedin:hover {
-    color: #0077B6;
-    border: 3.5px solid #0077B6
-}
-
-#whatsapp:hover {
-    color: #25D366;
-    border: 3.5px solid #25D366
-}
-
-#github:hover {
-    color: #6e6e6e;
-    border: 3.5px solid #6e6e6e
-}
-
-#instagram:hover {
-    color: #DD2A7B;
-    border: 3.5px solid #DD2A7B
-}
-
-#linkedin:hover, #whatsapp:hover, #github:hover, #instagram:hover, #email:hover {
+#home a:hover {
     transition:300ms;
     cursor: pointer;
     border-radius: 20px;
     font-size: 26px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 main {
     height: auto;
