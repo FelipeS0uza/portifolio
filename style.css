@@ -102,26 +102,6 @@ h2 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main {
     height: auto;
 }
@@ -171,47 +151,6 @@ ul {
     list-style: none;
 }
 
-#projects {
-    margin-top: 6rem;
-    text-align: center;
-}
-
-.projectEx {
-    margin-top: 3rem;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 5rem;
-    flex-wrap: wrap;
-}
-
-.projectEx:nth-child(2n + 1) {
-    flex-wrap: wrap-reverse;
-}
-
-.projectImg {
-    border: 5px solid black;
-    border-radius: 20px;
-    width: 80%;
-}
-
-#projectText {
-    width: 45rem;
-    padding: 2rem;
-}
-
-h4 {
-    font-family: "Inter", sans-serif;
-    color: var(--colorText);
-    font-size: 2.1rem;
-    margin-bottom: 1.25rem;
-}
-
-#projectText p {
-    font-family: "Inter", sans-serif;
-    color: var(--colorText);
-    font-size: 1.25rem;
-}
 
 footer {
     padding: 0.6rem;
