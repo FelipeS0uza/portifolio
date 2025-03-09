@@ -1,6 +1,6 @@
 .apresentaçao {
     padding-top: 3em;
-    text-align: center;
+    height: 100%;
 }
 
 .apresentaçao_titulo {
@@ -13,9 +13,10 @@
     margin: 0.5em 0 2em 0;
 }
 
-.apresentaçao_resumo {
+.apresentaçao_texto {
     font: 14px;
     line-height: 1.3;
+    padding: 0 1em;
 }
 
 .titulo_lista {

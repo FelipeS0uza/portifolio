@@ -1,16 +1,19 @@
 @import url("./styles/header.css");
 @import url("./styles/apresentaçao.css");
+@import url("./styles/sobreMim.css");
+@import url("./styles/footer.css");
 
 
 :root {
     --cor-de-fundo: #1E1E1E;
     --cor-texto: #FFFFFF;
     --fonte-principal: "Poppins";
+    --font-secundaria: "Inter";
 }
 
 body {
     background: var(--cor-de-fundo);
     color: var(--cor-texto);
     font-family: var(--fonte-principal);
-
+    text-align: center;
 }

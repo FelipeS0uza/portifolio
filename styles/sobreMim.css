@@ -1,0 +1,16 @@
+.sobre_mim {
+    margin-bottom: 5em;
+}
+
+.sobre_mim-titulo {
+    font-size: 50px;
+    margin-top: 0.5em;
+    margin: 2em 0 1em 0
+}
+
+.sobre_mim-texto {
+    font-family: var(--font-secundaria);
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 0 1em;
+}

@@ -1,0 +1,10 @@
+.rodape {
+    height: 10%;
+    border-top: 1px solid var(--cor-texto);
+}
+
+.rodape_texto {
+    font-family: var(--font-secundaria);
+    font-size: 11px;
+    padding: 1em 2em;
+}
