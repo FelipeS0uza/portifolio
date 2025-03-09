@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.primeiro_nome {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.segundo_nome {
+    font-size: 16px;
+    text-align: end;
+    font-weight: 300;
+}
+
+.botoes {
+    padding: 0.5em;
+}
+
+.botoes_projetos,
+.botoes_contato {
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 0.4em 0.7em;
+}
+
+.botoes_projetos {
+    color: var(--cor-texto);
+    border: 1px solid var(--cor-texto);
+    margin-right: 0.5em;
+}
+
+.botoes_contato {
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-texto);
+}

@@ -1,0 +1,28 @@
+.apresentaçao {
+    padding-top: 3em;
+    text-align: center;
+}
+
+.apresentaçao_titulo {
+    font-size: 50px;
+    margin-top: 0.5em;
+}
+
+.apresentaçao_subtitulo {
+    font-size: 16px;
+    margin: 0.5em 0 2em 0;
+}
+
+.apresentaçao_resumo {
+    font: 14px;
+    line-height: 1.3;
+}
+
+.titulo_lista {
+    font: 15px;
+    margin: 1em 0;
+}
+
+.item_lista {
+    padding: 5px;
+}
