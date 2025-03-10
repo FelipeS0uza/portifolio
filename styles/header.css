@@ -32,7 +32,19 @@
     margin-right: 0.5em;
 }
 
-.botoes_contato {
+.botoes_projetos:hover {
     color: var(--cor-de-fundo);
     background-color: var(--cor-texto);
+}
+
+.botoes_contato {
+    color: var(--cor-de-fundo);
+    border: 1px solid var(--cor-texto);
+    background-color: var(--cor-texto);
+}
+
+.botoes_contato:hover {
+    color: var(--cor-texto);
+    border: 1px solid var(--cor-texto);
+    background-color: var(--cor-de-fundo);
 }

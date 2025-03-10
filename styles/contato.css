@@ -1,0 +1,26 @@
+.contato_titulo {
+    font-size: 50px;
+    margin-top: 1em;
+}
+
+.contato_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.contato_logo {
+    width: 6em;
+    margin-right: 1em;
+}
+
+.contato_link {
+    font-size: 25px;
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
+.contato_link:hover {
+    border-bottom: 2px solid var(--cor-texto);
+}
