@@ -7,10 +7,11 @@
 
 
 :root {
-    --cor-de-fundo: #1E1E1E;
+    --cor-de-fundo: linear-gradient(180deg, rgba(30,30,30,1) 0%, rgba(35,44,107,1) 77%);
     --cor-texto: #FFFFFF;
     --fonte-principal: "Poppins";
     --font-secundaria: "Inter";
+    --azul: #4c46a1;
 }
 
 body {

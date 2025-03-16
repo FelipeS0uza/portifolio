@@ -1,26 +1,15 @@
-.contato_titulo {
-    font-size: 50px;
-    margin-top: 1em;
+.contatos {
+    margin-top: 6em;
 }
 
-.contato_item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3em;
-}
+ .iconContato {
+    width: 45px;
+    background-color: var(--azul);
+    border-radius: 50%;
+    padding: 0.5em;
+    box-shadow: 0 3px 3px 0 #3e3e3e, 0 2px 15px 0 #3e3e3e;
+ }
 
-.contato_logo {
-    width: 6em;
-    margin-right: 1em;
-}
-
-.contato_link {
-    font-size: 25px;
-    color: var(--cor-texto);
-    text-decoration: none;
-}
-
-.contato_link:hover {
-    border-bottom: 2px solid var(--cor-texto);
+.iconLink {
+    margin: 0 1em;
 }
