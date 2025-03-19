@@ -16,6 +16,11 @@
 
 <body>
 
+    <div class="background">
+        <canvas id="backgroundCanvas"></canvas>
+        <script src="./js/background.js"></script>
+    </div>
+
     <header class="header">
         <div class="nome">
             <h1 class="primeiro_nome">Felipe</h1>
@@ -43,17 +48,13 @@
                 <img src="photos/logo-instagram.png" alt="Logo do Instagram" class="iconContato">
             </a>
         </div>
-        <!-- <ul>
-            <li class="titulo_lista">Habilidades:</li>
-            <li class="item_lista">HTML/CSS</li>
-            <li class="item_lista">Javascript</li>
-            <li class="item_lista">React.js</li>
-            <li class="item_lista">Git/GitHub</li>
-            <li class="item_lista">Python</li>
-            <li class="item_lista">MySQL</li>
-            <li class="item_lista">Kanban/Trello</li>
-            <li class="item_lista">Office</li>
-        </ul> -->
+
+        <a href="Currículo.pdf" download class="download-cv-btn">
+            <span class="btn-text">Download CV</span>
+            <span class="btn-icon"><i class="fas fa-download"></i></span>
+          </a>
+
+
     </section>
 
     <section class="sobre_mim">
@@ -74,8 +75,7 @@
 
     <footer class="rodape">
         <p class="rodape_texto">
-            Projeto desenvolvido por ©Felipe Souza usando Visual Studio Code com as linguagens HTML - CSS - Javascript.
-            Deploy feito com Vercel.
+            Projeto desenvolvido por ©Felipe Souza.
         </p>
 
     </footer>
