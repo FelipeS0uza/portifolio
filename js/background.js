@@ -2,7 +2,7 @@
 var canvas = document.getElementById('backgroundCanvas');
 var context = canvas.getContext('2d');
 
-// Função para ajustar o tamanho do canvas
+// ajustar o tamanho do canvas
 function resizeCanvas() {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
