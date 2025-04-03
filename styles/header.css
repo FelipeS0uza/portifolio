@@ -34,3 +34,44 @@
     color: #000000;
     background-color: var(--cor-texto);
 }
+
+
+@media screen and (min-width:768px) {
+
+    .primeiro_nome {
+        font-size: 32px;
+    }
+
+    .segundo_nome {
+        font-size: 25px;
+    }
+
+    .botoes {
+        padding: 1em;
+    }
+
+    .botoes_projetos {
+        border: 1.3px solid var(--cor-texto);
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .header {
+        padding: 2em;
+    }
+    
+    .primeiro_nome {
+        font-size: 36px;
+    }
+    
+    .segundo_nome {
+        font-size: 28px;
+    }
+    
+    .botoes_projetos {
+        font-size: 24px;
+    }
+    
+}
